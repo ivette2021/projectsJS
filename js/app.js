@@ -1,1 +1,2 @@
-console.log("hola mundo")
+const nombre = prompt('Cual es tu nombre?') //esto es para que rellenes campos
+document.querySelector('.contenido').innerHTML = `${nombre} esta visitando la javaScript`; //permite seleccionar elementos de html le agregamos un template string

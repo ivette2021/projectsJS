@@ -1,0 +1,8 @@
+{ //guia de estilo , configuraciones de eslint 
+    "parserOptions":{
+     "ecmaVersion": 6
+},
+"rules": {
+    "semi":["error", "always"] //semi revisa en el archivo que deteminemos el ;
+}
+}

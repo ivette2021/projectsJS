@@ -17,3 +17,4 @@ console.log(total);
 //con un reduce
 let resultado = carrito.reduce((total,producto) => total + producto.precio, 0); //2100
 console.log(resultado);
+

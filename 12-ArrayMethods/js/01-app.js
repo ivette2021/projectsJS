@@ -9,7 +9,7 @@ const carrito = [
     { nombre: 'Celular', precio: 700 },
 ]
 
-//Comprobar si un valor existe en un arreglo
+//Comprobar si un valor existe en un arreglossss
 
 meses.forEach(mes=> {
    if (mes == 'Enero') {

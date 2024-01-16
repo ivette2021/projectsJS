@@ -29,3 +29,6 @@ console.log(card.parentElement.parentElement.parentElement);
 console.log(card);
 console.log(card.nextElementSibling);//esto es como para recorrer de un card hijo a su hermano de al lado 
 console.log(card.nextElementSibling.nextElementSibling);//esto es como para recorrer de un card hijo a su hermano de al lado y el siguiente a este
+
+const ultimoCard = document.querySelector('.card:nth-child(4)');
+console.log(ultimoCard.previousElementSibling); //regresar un elemento antes
